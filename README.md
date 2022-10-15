@@ -197,3 +197,10 @@ export default {
 - ReactMuiNpmPackage was created with react18 & mui5. 
 - If the project consuming this library has no react or mui then npm throws no warning. Why ? If you look at node_module folder then you can see that both react & mui are installed/downloaded there. 
 - If the project consiming this library has either react or mui then npm will throw a warning if the react or mui version are diffrent from what the peerDependency is specifying. Npm will not throw a warnign if they are same.
+
+## Sym version rules
+- breaking change increments the major number
+- new functionality that is backward compatible increments the minor number
+- simple bug fix to existing functionality increments the patch number
+- Use tilde (~) to allow newer patch level and newer minor or patch level version with caret (^)
+
