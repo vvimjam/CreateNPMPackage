@@ -204,3 +204,7 @@ export default {
 - simple bug fix to existing functionality increments the patch number
 - Use tilde (~) to allow newer patch level and newer minor or patch level version with caret (^)
 
+
+# Publish package to Azure Artifact
+- Create feed (Set visibility)
+
